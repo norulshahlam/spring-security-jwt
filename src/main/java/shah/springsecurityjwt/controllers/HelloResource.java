@@ -1,4 +1,4 @@
-package shah.springsecurityjwt;
+package shah.springsecurityjwt.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -13,8 +13,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import shah.models.AuthenticationRequest;
-import shah.models.AuthenticationResponse;
+import shah.springsecurityjwt.jwt.JwtUtil;
+import shah.springsecurityjwt.models.AuthenticationRequest;
+import shah.springsecurityjwt.models.AuthenticationResponse;
+import shah.springsecurityjwt.security.MyUserDetailsService;
 
 @RestController
 public class HelloResource {

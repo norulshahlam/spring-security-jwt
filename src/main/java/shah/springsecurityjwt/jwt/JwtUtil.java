@@ -1,4 +1,4 @@
-package shah.springsecurityjwt;
+package shah.springsecurityjwt.jwt;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

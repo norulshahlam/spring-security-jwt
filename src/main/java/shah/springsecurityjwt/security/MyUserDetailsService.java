@@ -1,4 +1,4 @@
-package shah.springsecurityjwt;
+package shah.springsecurityjwt.security;
 
 import java.util.ArrayList;
 

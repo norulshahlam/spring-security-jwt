@@ -1,4 +1,4 @@
-package shah.models;
+package shah.springsecurityjwt.models;
 
 import java.io.Serializable;
 // 10005
